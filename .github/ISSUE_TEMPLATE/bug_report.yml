@@ -1,0 +1,111 @@
+name: 🐛 Bug Report
+description: Report something in comp-hub that isn't working as expected.
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report — it genuinely helps.
+
+        Before you start, please [search existing issues](https://github.com/ggbond-github/comp-hub-community/issues?q=is%3Aissue) to avoid duplicates.
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Preflight checklist
+      options:
+        - label: I have searched existing issues and this is not a duplicate.
+          required: true
+        - label: This is a bug report, not a question or a feature request.
+          required: true
+        - label: I have removed any confidential or proprietary code from what I'm about to paste.
+          required: true
+
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Which part of comp-hub is affected?
+      options:
+        - CLI (`npx comp-hub`)
+        - Local server
+        - Cloud platform (teams, accounts, sign-in)
+        - Web app (library, upload, settings)
+        - Component preview
+        - Component upload / authoring
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: framework
+    attributes:
+      label: Component framework
+      description: Which framework is the component (or the project) using?
+      options:
+        - Vue 3
+        - Vue 2
+        - React 18
+        - React 17
+        - Multiple frameworks
+        - Not framework-specific
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: comp-hub, plus whichever of Node.js, browser, and operating system are relevant.
+      placeholder: "comp-hub 0.46.22, Node 20.11.0, Chrome 132, Windows 11"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the actual behaviour.
+      placeholder: Describe what you saw, including any error message.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: Describe the behaviour you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: The more precise these are, the faster this gets fixed. A minimal reproduction is worth more than a long description.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: How often does this happen?
+      options:
+        - Every time
+        - Intermittently
+        - Only happened once
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs, screenshots, or screen recordings
+      description: Paste terminal output, server logs, or browser console errors here. Drag images directly into this box.
+      render: shell
+    validations:
+      required: false

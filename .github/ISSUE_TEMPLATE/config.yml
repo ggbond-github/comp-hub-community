@@ -1,0 +1,20 @@
+# GitHub issue template chooser configuration.
+# Docs: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+
+# Force everyone through a template. Blank issues tend to arrive with no
+# versions, no reproduction steps, and nothing actionable.
+blank_issues_enabled: false
+
+contact_links:
+  - name: 🌐 Official Website
+    url: https://www.comphub.cn
+    about: Browse, search, and preview components — no sign-in required.
+  - name: 📖 Documentation
+    url: https://docs.comphub.cn/
+    about: Guides and reference, available in English, 简体中文, 繁體中文, Français, and Nederlands.
+  - name: 💬 Questions & Ideas
+    url: https://github.com/ggbond-github/comp-hub-community/discussions
+    about: Ask a question, share how you're using comp-hub, or float an idea. Not an issue.
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/ggbond-github/comp-hub-community/security/advisories/new
+    about: Please report security issues privately, never in a public issue.
