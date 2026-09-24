@@ -51,6 +51,7 @@ The full platform — teams, publishing, favorites, and management — lives at 
 | 🌐 **Website**                 | <https://www.comphub.cn>                                      |
 | 📖 **Documentation**           | <https://docs.comphub.cn/> (also available in 简体中文, 繁體中文, Français, Nederlands) |
 | 🚀 **Full platform**           | <https://intranet.comphub.cn/main/>                           |
+| 📋 **Changelog**               | <https://intranet.comphub.cn/main/#/upgrade>                  |
 | 🐛 **Issue tracker**           | <https://github.com/ggbond-github/comp-hub-community/issues>     |
 | 💬 **Discussions**             | <https://github.com/ggbond-github/comp-hub-community/discussions> |
 
@@ -109,7 +110,7 @@ Chinese readers: <https://docs.comphub.cn/zh/>
 
 ## Status
 
-comp-hub is under active development. The current release is **0.46.x**.
+comp-hub is under active development. The current release is **0.46.x** — see the [changelog](https://intranet.comphub.cn/main/#/upgrade) for what changed in each version.
 
 <!-- TODO: replace the above with a short, honest roadmap. A "what's next" list gives visitors a reason to watch the repo. -->
 
@@ -119,6 +120,7 @@ Use the [issue tracker](https://github.com/ggbond-github/comp-hub-community/issu
 
 - 🐛 **[Report a bug](https://github.com/ggbond-github/comp-hub-community/issues/new?template=bug_report.yml)**
 - ✨ **[Request a feature](https://github.com/ggbond-github/comp-hub-community/issues/new?template=feature_request.yml)**
+- 📋 **Check the [changelog](https://intranet.comphub.cn/main/#/upgrade) first** — the bug may already be fixed in a newer release.
 - 💬 **Have a question instead?** Use [Discussions](https://github.com/ggbond-github/comp-hub-community/discussions) — it is not an issue.
 
 Before filing, please [search existing issues](https://github.com/ggbond-github/comp-hub-community/issues?q=is%3Aissue) first. Good reports include versions, reproduction steps, and what you expected to happen — see [CONTRIBUTING.md](CONTRIBUTING.md).

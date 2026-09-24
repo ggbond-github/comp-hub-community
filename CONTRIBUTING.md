@@ -30,7 +30,7 @@ The single highest-leverage thing you can do is make the bug **reproducible**. A
 Please include:
 
 1. **Where** — which part of comp-hub (CLI, local server, remote server, web app, preview).
-2. **Versions** — comp-hub, Node.js, pnpm, browser, OS.
+2. **Versions** — comp-hub, Node.js, pnpm, browser, OS. Check the [changelog](https://intranet.comphub.cn/main/#/upgrade) first to confirm you're on the current release.
 3. **Framework** — Vue 2 or Vue 3 host project.
 4. **Steps to reproduce** — numbered, starting from a clean state.
 5. **Actual behaviour** — including the full error message, not a paraphrase of it.

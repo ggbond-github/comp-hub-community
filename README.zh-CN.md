@@ -51,6 +51,7 @@
 | 🌐 **官网**            | <https://www.comphub.cn>                                      |
 | 📖 **文档**            | <https://docs.comphub.cn/zh/>(另有 English / 繁體中文 / Français / Nederlands) |
 | 🚀 **完整平台**        | <https://intranet.comphub.cn/main/>                           |
+| 📋 **版本日志**        | <https://intranet.comphub.cn/main/#/upgrade>                  |
 | 🐛 **问题追踪**        | <https://github.com/ggbond-github/comp-hub-community/issues>     |
 | 💬 **讨论区**          | <https://github.com/ggbond-github/comp-hub-community/discussions> |
 
@@ -107,7 +108,7 @@ npx comp-hub
 
 ## 项目状态
 
-comp-hub 仍在活跃开发中,当前版本为 **0.46.x**。
+comp-hub 仍在活跃开发中,当前版本为 **0.46.x** —— 各版本的具体变更见[版本日志](https://intranet.comphub.cn/main/#/upgrade)。
 
 <!-- TODO: 把上面这段换成一份简短的、真实的路线图。「接下来做什么」能让访客有理由 watch 这个仓库。 -->
 
@@ -117,6 +118,7 @@ comp-hub 仍在活跃开发中,当前版本为 **0.46.x**。
 
 - 🐛 **[反馈 Bug](https://github.com/ggbond-github/comp-hub-community/issues/new?template=bug_report.yml)**
 - ✨ **[提功能需求](https://github.com/ggbond-github/comp-hub-community/issues/new?template=feature_request.yml)**
+- 📋 **先看[版本日志](https://intranet.comphub.cn/main/#/upgrade)** —— 你要反馈的问题可能已在新版本中修复。
 - 💬 **只是想提问?** 请用 [Discussions](https://github.com/ggbond-github/comp-hub-community/discussions) —— 提问不算 issue。
 
 提交前请先[搜索已有 issue](https://github.com/ggbond-github/comp-hub-community/issues?q=is%3Aissue)。一份好的反馈应包含版本信息、复现步骤和期望结果 —— 详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
